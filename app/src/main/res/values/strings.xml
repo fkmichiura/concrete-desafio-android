@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Github JavaPop</string>
+    <string name="repository_name">Nome Repositório</string>
+    <string name="repository_description">Descrição do repositório lorem ipsum dolor sit amet lorem ipsum dolor</string>
+    <string name="repository_fork_number">0</string>
+    <string name="repository_star_number">0</string>
+    <string name="repository_fullname">Nome Sobrenome</string>
+    <string name="repository_username">Username</string>
+    <string name="repository_fork_icon">Fork Icon</string>
+    <string name="repository_star_icon">Star Icon</string>
+    <string name="pull_title">Título do pull request</string>
+    <string name="pull_body">Body do pull request lorem ipsum dolor sit amet lorem ipsum dolor...</string>
+</resources>
