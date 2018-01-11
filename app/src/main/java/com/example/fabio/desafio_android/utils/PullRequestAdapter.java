@@ -1,4 +1,4 @@
-package com.example.fabio.desafio_android.Controllers;
+package com.example.fabio.desafio_android.utils;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.fabio.desafio_android.Models.Pull;
+import com.example.fabio.desafio_android.models.Pull;
 import com.example.fabio.desafio_android.R;
 import com.squareup.picasso.Picasso;
 
@@ -55,15 +55,15 @@ public class PullRequestAdapter extends RecyclerView.Adapter {
         return pulls.size();
     }
 
-    public class PullRequestViewHolder extends RecyclerView.ViewHolder {
+    private class PullRequestViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView pullAuthorName;
-        public TextView pullTitle;
-        public TextView pullDate;
-        public TextView pullBody;
-        public ImageView pullAvatar;
+        private TextView pullAuthorName;
+        private TextView pullTitle;
+        private TextView pullDate;
+        private TextView pullBody;
+        private ImageView pullAvatar;
 
-        public PullRequestViewHolder(View itemView) {
+        private PullRequestViewHolder(View itemView) {
             super(itemView);
 
             pullAuthorName = itemView.findViewById(R.id.tv_pull_username);

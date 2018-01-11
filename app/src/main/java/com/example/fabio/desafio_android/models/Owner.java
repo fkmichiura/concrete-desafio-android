@@ -1,4 +1,4 @@
-package com.example.fabio.desafio_android.Models;
+package com.example.fabio.desafio_android.models;
 
 /**
  * Created by Fabio on 05/01/2018.

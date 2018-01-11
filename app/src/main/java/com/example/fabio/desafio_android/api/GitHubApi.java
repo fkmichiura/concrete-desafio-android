@@ -1,4 +1,4 @@
-package com.example.fabio.desafio_android.Controllers;
+package com.example.fabio.desafio_android.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -11,6 +11,7 @@ public class GitHubApi {
 
     private static Retrofit retrofit = null;
 
+    //Cria o objeto Retrofit, responsável por realizar o contrato com a API
     public static Retrofit getApiClient(){
 
         if(retrofit == null){
